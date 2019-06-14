@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24090" started-at="2019-05-28T13:28:27Z" finished-at="2019-05-28T13:28:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24090" started-at="2019-05-28T13:28:27Z" finished-at="2019-05-28T13:28:51Z">
+      <class name="com.ActTIme.Test.TC01">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.ActTIme.Test.TC01@765367]" name="precondition" is-config="true" duration-ms="5500" started-at="2019-05-28T13:28:27Z" finished-at="2019-05-28T13:28:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="ValidLoginLogout()[pri:1, instance:com.ActTIme.Test.TC01@765367]" name="ValidLoginLogout" duration-ms="18563" started-at="2019-05-28T13:28:33Z" finished-at="2019-05-28T13:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginLogout -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:com.ActTIme.Test.TC01@765367]" name="postcondition" is-config="true" duration-ms="3" started-at="2019-05-28T13:28:51Z" finished-at="2019-05-28T13:28:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLoginLogout status=SUCCESS method=TC01.ValidLoginLogout()[pri:1, instance:com.ActTIme.Test.TC01@765367] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- com.ActTIme.Test.TC01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
