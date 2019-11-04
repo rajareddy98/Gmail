@@ -16,7 +16,7 @@ public abstract class BaseTest implements Autoconstant
 	public void precondition()
 	{
 		System.setProperty(chrome_key, chrome_value);
-		//System.setProperty(firefox_key, firefox_value);
+//		System.setProperty(firefox_key, firefox_value);
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
