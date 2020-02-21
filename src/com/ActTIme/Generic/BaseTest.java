@@ -15,7 +15,8 @@ public abstract class BaseTest implements Autoconstant
 	@BeforeMethod
 	public void precondition()
 	{
-		System.setProperty(chrome_key, chrome_value);
+		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
+//		System.setProperty(chrome_key, chrome_value);
 //		System.setProperty(firefox_key, firefox_value);
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
